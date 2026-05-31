@@ -1,0 +1,27 @@
+{
+  "name": "kirisute-gomen",
+  "displayName": "Kirisute Gomen",
+  "description": "Characters fall down when deleted - 文字を消すと切り捨て御免！",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.120.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}
